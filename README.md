@@ -1,4 +1,4 @@
-# Consulting-Services-Analysis
+# Consulting Services Analysis
 
 ## Business Objectives & User Stories
 
