@@ -27,6 +27,66 @@ Provide a monthly trend of sales and revenue to help the business understand sea
 | 4  | **Product Manager**           | Compare monthly sales trends over time                     | Identify seasonal demand patterns and forecast future sales  | A dynamic line chart displaying monthly trends of sales and revenue |
 | 5  | **Executive**                 | View a breakdown of product sales by percentage            | Assess product lines contributing most to overall sales      | A visual chart showing percentage breakdown of product sales |
 
+
+## Data Transformation
+
+In this project, I utilized Power BI's DAX (Data Analysis Expressions) to transform and calculate key performance metrics for the Consulting Services Dashboard. These DAX measures enabled tracking of essential metrics like revenue, sales volume, user engagement, and other KPIs to provide a comprehensive view of consulting service performance.
+
+### Key DAX Measures:
+
+1. **Average Purchase Frequency**  
+   This measure calculates the average number of purchases per user, helping identify customer purchasing behavior over time.
+
+2. **Average Revenue**  
+   Calculated to understand the average revenue generated per transaction, allowing stakeholders to gauge the typical transaction value.
+
+3. **Average Revenue per User (ARPU)**  
+   This measure determines the average revenue generated per unique user, providing insights into customer value.
+
+4. **Click Rate (CR)**  
+   A metric that calculates the click-through rate of marketing emails, helping assess user engagement and interest in specific services.
+
+5. **Individual Open Rate (IOR)**  
+   Tracks the percentage of users who opened an email, which is essential for understanding the reach and effectiveness of email campaigns.
+
+6. **No. of Sales**  
+   The total number of sales transactions, representing the volume of consulting services sold over the specified period.
+
+7. **No. of Unique Users**  
+   Counts the unique users who made purchases, useful for understanding the customer base size and engagement.
+
+8. **Open Rate (OR)**  
+   A measure of the percentage of emails opened out of the total sent, useful for evaluating email campaign effectiveness.
+
+9. **Total Revenue**  
+   Summarizes the revenue generated from all sales, providing a high-level view of the business's financial performance.
+
+10. **Unique Openers**  
+    Calculates the number of unique users who opened an email, allowing the marketing team to understand campaign reach among distinct individuals.
+
+### Data Model Structure
+
+The data model connects multiple tables to enable analysis across customer engagement and sales. Here is an overview of the tables and their roles in the model:
+
+- **CustomerEmail**  
+  Contains email interaction data such as emails opened, emails received, and clicks. This table is essential for tracking customer engagement metrics.
+
+- **CustomerSales**  
+  Holds sales transaction data, including customer ID, product, and transaction value. It provides the core data for revenue and sales metrics.
+
+- **DimDate**  
+  A date dimension table that allows filtering and analyzing data over different time periods, facilitating trend analysis.
+
+- **DimId**  
+  Serves as an identifier table, allowing relationships between different entities in the model.
+
+- **Measure Table**  
+  Contains DAX measures created to calculate the essential KPIs and performance metrics for the dashboard.
+
+This data model and the DAX measures empower the dashboard to deliver valuable insights into consulting sales performance, customer engagement, and product profitability, all in an interactive and visually compelling format.
+
+
+
 ### Dashboard Overview:
 The final dashboard includes:
 - **High-Level Metrics**: Displaying total revenue, average revenue per sale, average revenue per user, and purchase frequency.
