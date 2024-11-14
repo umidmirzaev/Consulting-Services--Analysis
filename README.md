@@ -86,8 +86,7 @@ The data model connects multiple tables to enable analysis across customer engag
 This data model and the DAX measures empower the dashboard to deliver valuable insights into consulting sales performance, customer engagement, and product profitability, all in an interactive and visually compelling format.
 
 
-
-### Dashboard Overview:
+## Dashboard Overview:
 The final dashboard includes:
 - **High-Level Metrics**: Displaying total revenue, average revenue per sale, average revenue per user, and purchase frequency.
 - **Sales & Revenue Dynamics**: A monthly trend chart of sales and revenue to track growth and patterns over the year.
