@@ -66,6 +66,9 @@ In this project, I utilized Power BI's DAX (Data Analysis Expressions) to transf
 
 ### Data Model Structure
 
+**Consulting Services Analysis - Data Model**   
+![DataModel](https://github.com/umidmirzaev/Consulting-Services--Analysis/blob/main/semantic.png)
+
 The data model connects multiple tables to enable analysis across customer engagement and sales. Here is an overview of the tables and their roles in the model:
 
 - **CustomerEmail**  
@@ -93,3 +96,6 @@ The final dashboard includes:
 - **Product Performance**: A detailed view of product performance in terms of sales volume and revenue.
 - **Customer Interaction Analysis**: A table summarizing customer email engagement metrics and corresponding sales data.
 - **Product Sales Breakdown**: A pie chart showing the percentage of sales per product category for quick insights into product contribution.
+
+**Consulting Services Analysis - Overview Page**
+![Overview Page](https://github.com/umidmirzaev/Consulting-Services--Analysis/blob/main/Overview.png)
