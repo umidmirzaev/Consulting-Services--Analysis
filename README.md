@@ -98,4 +98,4 @@ The final dashboard includes:
 - **Product Sales Breakdown**: A pie chart showing the percentage of sales per product category for quick insights into product contribution.
 
 **Consulting Services Analysis - Overview Page**
-![Overview Page](https://github.com/umidmirzaev/Consulting-Services--Analysis/blob/main/Overview.png)
+![Overview Page](https://github.com/umidmirzaev/Consulting-Services--Analysis/blob/main/Main.png)
